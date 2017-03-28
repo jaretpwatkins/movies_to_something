@@ -15,7 +15,7 @@
 
       <% @movies.each do |movie| %>
       <tr>
-        <td><%= movie.director_id %></td>
+        <td><%= movie.director.created_at %></td>
         <td>
           <a href="/movies/<%= movie.id %>" class="btn btn-primary">Show</a>
           <a href="/movies/<%= movie.id %>/edit" class="btn btn-warning">Edit</a>
