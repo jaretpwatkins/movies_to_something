@@ -1,0 +1,1 @@
+{"name":"movies to something","repository":"https://github.com/jaretpwatkins/movies_to_something","env":{"CLOUDINARY_CLOUD_NAME":{"required":true},"CLOUDINARY_API_KEY":{"required":true},"CLOUDINARY_API_SECRET":{"required":true},"ROLLBAR_ACCESS_TOKEN":{"required":true}}}
